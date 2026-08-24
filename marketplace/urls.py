@@ -26,6 +26,8 @@ urlpatterns = [
     path('api/', include('products.urls', namespace='products')),
     path('api/', include('users.urls', namespace='users')),
     path('api-auth/', include('rest_framework.urls') ),
+    path('api/chat/', include('chat.urls')),
+
 
 ]
 
